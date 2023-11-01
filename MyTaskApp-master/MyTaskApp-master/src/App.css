@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --NavbarBgColor: #7d7e81;
+  --NavColor: white;
+  --NavActiveLink: yellow;
+}
+#NavbarSection {
+  background-color: var(--NavbarBgColor);
+  width: 100%;
+  height: auto;
+}
+.navbar-brand {
+  color: var(--NavColor);
+}
+.nav-link {
+  color: var(--NavColor);
+}
+.navbar-toggler {
+  background-color: var(--NavColor);
+}
+.navbar-toggler-icon {
+  background-color: var(--NavColor);
+  padding: 10px;
+}
+.nav-link {
+  font-size: 19px;
+}
+
+/* My Task bar */
+#mytask {
+  border: 1px solid #747070;
+  height: auto;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #cac6c6
+  
+}
+#newMyTask {
+  background-color: #ccc;
+  padding-top: 20px; height: 90vh;
+
+}
+#buttonSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 14px
+}
+/* AllTask */
+#AllTask {
+  width: 90%;
+  height: auto;
+  color: white;
+  justify-content: space-between;
+  padding: 4px 30px;
+  padding-top: 20px;
+}
